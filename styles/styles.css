@@ -15,6 +15,9 @@ main {
   font-family: 'Roboto', sans-serif;
 }
 .form__container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
   max-width: 954px;
   width: 100%;
   min-height: 594px;
@@ -87,5 +90,6 @@ form {
   max-width: 345px;
   width: 100%;
   min-height: 594px;
+
   background-color: #ffb039;
 }

@@ -14,30 +14,39 @@
   <body>
     <main>
       <div class="form__container">
-        <form action="">
-          <label for="name" class="label">FULL NAME</label>
-          <input type="text" class="input__field" />
-          <label for="email" class="label">EMAIL</label>
-          <input type="email" placeholder="Your Email" class="input__field border__bottom__input" />
-          <label class="label">MESSAGE REGARDING</label>
-          <textarea
-            name="message"
-            cols="30"
-            rows="1"
-            class="textarea border__bottom__input"
-          ></textarea>
-          <label class="label">MESSAGE</label>
-          <textarea
-            name="message"
-            cols="30"
-            rows="1"
-            class="textarea"
-            placeholder="Your Message"
-          ></textarea>
-          <button class="btn">SEND MESSAGE</button>
-        </form>
+        <div class="form">
+          <form action="">
+            <label for="name" class="label">FULL NAME</label>
+            <input type="text" class="input__field" />
+            <label for="email" class="label">EMAIL</label>
+            <input
+              type="email"
+              placeholder="Your Email"
+              class="input__field border__bottom__input"
+            />
+            <label class="label">MESSAGE REGARDING</label>
+            <textarea
+              name="message"
+              cols="30"
+              rows="1"
+              class="textarea border__bottom__input"
+            ></textarea>
+            <label class="label">MESSAGE</label>
+            <textarea
+              name="message"
+              cols="30"
+              rows="1"
+              class="textarea"
+              placeholder="Your Message"
+            ></textarea>
+            <button class="btn">SEND MESSAGE</button>
+          </form>
+        </div>
+        <div class="orange__container"></div>
       </div>
-      <div class="orange__container"></div>
+      <div class="image__container">
+        <img src="/images/duck-image.png" alt="plastic duck image" />
+      </div>
     </main>
   </body>
 </html>
