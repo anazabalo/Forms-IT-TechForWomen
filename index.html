@@ -6,28 +6,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Forms</title>
     <link rel="stylesheet" href="/styles/styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <main>
       <div class="form__container">
         <form action="">
           <label for="name" class="label">FULL NAME</label>
-          <input type="text" />
+          <input type="text" class="input__field" />
           <label for="email" class="label">EMAIL</label>
-          <input type="email" placeholder="Your Email" />
-          <label for="label">MESSAGE REGARDING</label>
-          <textarea name="message" cols="30" rows="1" class="textarea"></textarea>
-          <label for="label">MESSAGE</label>
+          <input type="email" placeholder="Your Email" class="input__field border__bottom__input" />
+          <label class="label">MESSAGE REGARDING</label>
           <textarea
             name="message"
             cols="30"
-            rows="4"
+            rows="1"
+            class="textarea border__bottom__input"
+          ></textarea>
+          <label class="label">MESSAGE</label>
+          <textarea
+            name="message"
+            cols="30"
+            rows="1"
             class="textarea"
             placeholder="Your Message"
           ></textarea>
-          <button>SEND MESSAGE</button>
+          <button class="btn">SEND MESSAGE</button>
         </form>
       </div>
+      <div class="orange__container"></div>
     </main>
   </body>
 </html>
