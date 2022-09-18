@@ -25,7 +25,6 @@ main {
   background-color: #be0909;
 }
 form {
-  border: 1px solid yellow;
   box-sizing: border-box;
   max-width: 400px;
   width: 100%;
@@ -92,4 +91,13 @@ form {
   min-height: 594px;
 
   background-color: #ffb039;
+}
+
+.image__container {
+  max-width: 663px;
+  width: 100%;
+  min-height: 603px;
+  position: absolute;
+  left: 585px;
+  top: 53px;
 }
