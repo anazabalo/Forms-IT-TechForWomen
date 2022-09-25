@@ -101,3 +101,9 @@ form {
   left: 585px;
   top: 53px;
 }
+
+input:hover,
+textarea:hover {
+  box-shadow: 5px 5px 1px 1px #ffb039;
+  cursor: pointer;
+}
